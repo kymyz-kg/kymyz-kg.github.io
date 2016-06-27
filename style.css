@@ -628,7 +628,8 @@ footer *{
 }
 
 .navbar-color{
-    background: rgba(0,0,0,0.7);
+    /*background:hook rgba(0,0,0,0.7);*/
+    background: rgba(13, 152, 34, 0.7)
 }
 
 .navbar-nav{

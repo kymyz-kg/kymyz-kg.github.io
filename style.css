@@ -26,6 +26,10 @@ h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
     color: #418d49;
 }
 
+#home {
+  margin-bottom: 0;
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus,

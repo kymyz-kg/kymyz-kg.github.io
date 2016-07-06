@@ -9,9 +9,9 @@
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,
 h1 *, h2 *, h3 *, h4 *, h5 *, h6 *{
-      font-family: 'Arvo',serif;
-      font-weight: 400;
-  }
+  font-family: 'Arvo',serif;
+  font-weight: 400;
+}
 
 .breadcrumb {
     border-left-color: #3E84C2;
@@ -430,6 +430,11 @@ div.pricing-circle{
     font-size: 16pt;
     font-weight: 900;
     color: #ffffff;
+}
+
+.bg {
+  margin-top: 21px;
+  margin-bottom: 21px;
 }
 
 .bg-primary {

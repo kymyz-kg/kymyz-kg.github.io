@@ -237,33 +237,6 @@ a.text-danger:hover {
   color: #fff;
   background-color:rgb(26, 188, 156);
 }
-a.bg-primary:hover {
-  background-color: #1a242f;
-}
-.bg-success {
-  background-color: rgb(46, 204, 113);
-}
-a.bg-success:hover {
-  background-color: #128f76;
-}
-.bg-info {
-  background-color: #3498db;
-}
-a.bg-info:hover {
-  background-color: #217dbb;
-}
-.bg-warning {
-  background-color: #f39c12;
-}
-a.bg-warning:hover {
-  background-color: #c87f0a;
-}
-.bg-danger {
-  background-color: #e74c3c;
-}
-a.bg-danger:hover {
-  background-color: #d62c1a;
-}
 .bg-ios-default{
     background-color: #00E1F1;
     color: #ffffff;

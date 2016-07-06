@@ -418,7 +418,6 @@ section.pricing{
   background: -moz-linear-gradient(rgba(30,63,140,1), rgba(105,153,225,1));
   background: -webkit-linear-gradient(rgba(30,63,140,1), rgba(105,153,225,1));
   background: linear-gradient(rgba(30,63,140,1), rgba(105,153,225,1));
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e3f8c', endColorstr='#6999e1',GradientType=0 );
 }
 div.white, div.white *{
   color: #ffffff !important;

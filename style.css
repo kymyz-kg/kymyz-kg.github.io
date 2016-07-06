@@ -414,7 +414,7 @@ section#portfolio{
 }
 
 section.pricing{
-    background: #2c6393;
+    background: url(images/tweed.png);
     padding: 30px 0 50px 0;
 }
 div.white, div.white *{

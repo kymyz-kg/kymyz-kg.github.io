@@ -432,6 +432,36 @@ div.pricing-circle{
     color: #ffffff;
 }
 
+.bg-primary {
+  color:rgb(26, 188, 156);
+}
+a.bg-primary:hover {
+  color: #1a242f;
+}
+.bg-success {
+  color: rgb(46, 204, 113);
+}
+a.bg-success:hover {
+  color: #128f76;
+}
+.bg-info {
+  color: #3498db;
+}
+a.bg-info:hover {
+  color: #217dbb;
+}
+.bg-warning {
+  color: #f39c12;
+}
+a.bg-warning:hover {
+  color: #c87f0a;
+}
+.bg-danger {
+  color: #e74c3c;
+}
+a.bg-danger:hover {
+  color: #d62c1a;
+}
 
 .pricing-table .panel {
     background: #eeeeee;

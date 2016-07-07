@@ -411,10 +411,10 @@ section#portfolio{
 }
 
 section.pricing{
-  background: rgb(30,63,140);
-  background: -moz-linear-gradient(rgba(30,63,140,1), rgba(105,153,225,1));
-  background: -webkit-linear-gradient(rgba(30,63,140,1), rgba(105,153,225,1));
-  background: linear-gradient(rgba(30,63,140,1), rgba(105,153,225,1));
+  background: #2D6D7B;
+  background: -moz-linear-gradient(#2D6D7B, #49C9E6);
+  background: -webkit-linear-gradient(#2D6D7B, #49C9E6);
+  background: linear-gradient(#2D6D7B, #49C9E6);
 }
 div.white, div.white *{
   color: #ffffff !important;

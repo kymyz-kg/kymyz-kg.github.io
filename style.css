@@ -286,8 +286,7 @@ section.slider .col-md-8{
 
 
 .inner-page{
-  margin-bottom: 30px;
-  padding-bottom: 30px;
+  margin-top: 35px;
 }
 
 img{
@@ -489,7 +488,7 @@ div.pricing-table .panel .panel-heading h3{
 }
 
 .pricing-table .list-group-item{
-  padding: 0px 20px;
+  padding: 15px 20px;
   font-size: 10pt;
 }
 
@@ -670,7 +669,7 @@ footer *{
 
 .navbar-color{
   /*background:hook rgba(0,0,0,0.7);*/
-  background: rgba(13, 152, 34, 0.7)
+  background: rgba(13, 152, 34, 0.85)
 }
 
 .navbar-nav{

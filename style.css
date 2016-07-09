@@ -209,17 +209,18 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .jumbotron{
-  background: #10991e url(images/main-banner.jpg);
+  background: #10991e url(images/main-banner.jpg) no-repeat center top;
   background-size: cover;
   color: #ffffff;
   padding: 0;
 
 }
 .jumbotron .intro{
-  background: rgba(0, 0, 0,0.1);
+  background: rgba(0, 0, 0,0.1) url(images/kookor.png) no-repeat fixed center center;
+  background-size: 35%;
   padding-top: 120px;
   padding-bottom: 40px;
-  min-height: 400px;
+  min-height: 650px;
 }
 
 .jumbotron .intro .row-top div.ccont{

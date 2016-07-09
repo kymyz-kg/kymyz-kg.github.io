@@ -216,11 +216,10 @@ fieldset[disabled] .btn-primary.active {
 
 }
 .jumbotron .intro{
-  background: rgba(0, 0, 0,0.1) url(images/kookor.png) no-repeat fixed center center;
+  background: rgba(0, 55, 0, 0.2) url(images/kookor.png) no-repeat fixed center center;
   background-size: 35%;
-  padding-top: 120px;
-  padding-bottom: 40px;
-  min-height: 650px;
+  padding-top: 15em;
+  padding-bottom: 5em;
 }
 
 .jumbotron .intro .row-top div.ccont{

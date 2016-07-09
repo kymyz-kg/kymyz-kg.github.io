@@ -24,6 +24,30 @@
 
   </head>
   <body data-spy="scroll" data-target="#topnav">
+
+    <!-- MODAL INFO MODAL -->
+    <div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title text-center" id="infoModalLabel">Маалымат</h4>
+          </div>
+          <div class="modal-body" > 
+            <div id="infoSection">
+            </div>
+            <div id ="infoFooter">
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-info btn-md orderBtn">Байланыш</button>
+            <button type="button" class="btn btn-default dismissBtn" data-dismiss="modal">Артка</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL INFO END -->
+
     <div class="navbar navbar-color navbar-fixed-top" id="topnav">
       <div class="container">
         <div class="navbar-header">
@@ -71,8 +95,8 @@
           <div class="col-md-4">
             <div class="portfolio-block"><img src="images/projects/1.jpg" alt="Protect" />
               <div class="portfolio-caption text-center animated">
-                <h3 class="animated">...</h3>
-                <a href="#contact" class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
+                <h3 class="animated">Алайкуу кымызы...</h3>
+                <a class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
               </div>
             </div>
           </div>
@@ -80,7 +104,7 @@
             <div class="portfolio-block"><img src="images/projects/2.jpg" alt="Protect" />
               <div class="portfolio-caption text-center animated">
                 <h3 class="animated">...</h3>
-                <a href="#contact" class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
+                <a class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
               </div>
             </div>
           </div>
@@ -88,7 +112,7 @@
             <div class="portfolio-block"><img src="images/projects/3.jpg" alt="Protect" />
               <div class="portfolio-caption text-center animated">
                 <h3 class="animated">Жайлоолорубуздун тизмеси</h3>
-                <a href="#contact" class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
+                <a class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
               </div>
             </div>
           </div>
@@ -104,7 +128,7 @@
             <div class="portfolio-block"><img src="images/projects/5.jpg" alt="Protect" />
               <div class="portfolio-caption text-center animated">
                 <h3 class="animated">...</h3>
-                <a href="#contact" class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
+                <a class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
               </div>
             </div>
           </div>
@@ -112,7 +136,7 @@
             <div class="portfolio-block"><img src="images/projects/6.jpg" alt="Protect" />
               <div class="portfolio-caption text-center animated">
                 <h3 class="animated">Сыйлыктарыбыз</h3>
-                <a href="#contact" class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
+                <a class="btn btn-social btn-skype btn-sm animated"><i class="tn-plus"></i></a>
               </div>
             </div>
           </div>
@@ -332,57 +356,19 @@
         </div>
       </div>
     </footer>
+
+    <div style="display: none">
+      <div id="electricFooter">
+        Вызов электрика на дом. Вызов электрика в офис. Вызов электрика на дачу
+        или загородный дом. Услуги электрика. Быстро, правильно, недорого.
+        <hr>
+      </div>
+    </div>
     <!-- Bootstrap core JavaScript
       ================================================== -->
       <!-- Placed at the end of the document so the pages load faster -->
       <script src="js/jquery.js"></script>
-      <script src="bootstrap/js/bootstrap.min.js"></script>
-      <script type="text/javascript">
-$(function () {
-  if($(window).width()>960){
-    var tw = $('.triangles').width()/7+32;
-    var ta = tw/2+22;
-    $('.down-triangle').css('border-top',tw+'px solid rgba(100, 133, 213, 0.8)').css('border-left',ta+'px solid transparent').css('border-right',ta+'px solid transparent');
-    $('.up-triangle').css('border-bottom',tw+'px solid rgba(100, 133, 213, 0.8)').css('border-left',ta+'px solid transparent').css('border-right',ta+'px solid transparent');
-  }
-  $('#wd-wrapper').sinusoid({
-    minImgW: 80,
-    maxImgW: 130,
-    minImgAngle: -20,
-    maxImgAngle: 20,
-    leftFactor: 60,
-    sinusoidFunction: {
-      A: 70,
-      T: 1700,
-      P: 0
-    }
-  });
-  $('a[href*=#]:not([href=#]):not([rel=crs])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-    if (target.length) {
-      $('html,body').animate({
-        scrollTop: target.offset().top
-      }, 1000);
-      return false;
-    }
-  }
-  });
-});
-      </script>
-      <!--
-        <script type='text/javascript'>
-(function(){ var widget_id = 'ZnxIRaYpxP';var d=document;var w=window;function l(){
-  var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-        <script type='text/javascript'>
-(function(){ var widget_id = 'ZnxIRaYpxP';var d=document;var w=window;function
-  l(){
-    var s = document.createElement('script'); s.type = 'text/javascript';
-    s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var
-      ss = document.getElementsByTagName('script')[0];
-    ss.parentNode.insertBefore(s,
-        ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();</script>
-        -->
+      <script src="bootstrap/js/bootstrap.js"></script>
+      <script src="js/custom.js"></script>
   </body>
 </html>

@@ -7,7 +7,7 @@
             container.innerHTML = "";
            container.appendChild(document.getElementById(x).cloneNode(true));
         } else {
-            container.innerHTML = "<h4>Толук маалымат үчүн биз менен байланышыңыз.</h4>";
+            container.innerHTML = "<h4 class=\"text-center\" style=\"padding: 30px\">Толук маалымат үчүн биз менен байланышыңыз.</h4>";
         }
     }
 

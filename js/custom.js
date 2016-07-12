@@ -11,6 +11,7 @@
         }
     }
 
+
     $(document).ready(function(){
         $(".orderBtn").click(function(){
             $("#infoModal").modal('hide');
@@ -22,7 +23,40 @@
             getInfo(this);
             $("#infoModal").modal();
         });
+
     });
+
 
 }(jQuery));
 
+function mailer() {
+    $.ajax({
+        url: './mailer/mail.php',
+        type:'POST',
+        data:
+        {
+            name: $('#name').val(),
+            email: $('#email').val(),
+            message: $('#message').val()
+        },
+        datatype: 'JSON',
+        success: function(msg)
+        {
+           iygilik(); 
+        },            
+        error: function(msg) 
+        {
+            alert('Кат жөнөтүлгөн жок, кайрадан аракет кылып көрүңүз');
+        }
+    });
+};
+
+function iygilik() {
+    document.getElementById("myForm").reset();
+    $('[data-toggle="popover"]').popover('show');
+    setTimeout(function(){ $('[data-toggle="popover"]').popover('hide'); }, 5000);
+}; 
+
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();
+});

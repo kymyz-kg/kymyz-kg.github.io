@@ -2233,6 +2233,7 @@ a.list-group-item-danger:focus {
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   white-space: normal;
+  font-size: 2em;
 }
 
 .popover.top > .arrow {

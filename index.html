@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Кымыз.kg</title>
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favicon.ico">
 
     <!-- bootstrap core css -->
     <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -305,24 +305,25 @@
               <strong>Ката!</strong> Катыңыз жөнөтүлгөн жок
             </div>
             <h2 class="short">Биз менен <strong>байланышуу</strong></h2>
-            <form class="clearfix" accept-charset="utf-8" method="post" action="./mailer/mail.php">
+            <form class="clearfix" id="myForm" accept-charset="utf-8" onsubmit=" event.preventDefault(); mailer()">
               <div class="row">
                 <div class="col-sm-6 form-group">
                   <label for="name"></label>
-                  <input type="text" placeholder="Атыңыз" value="" name="name" id="name" class="form-control input-lg" style="font-weight: 400">
+                  <input type="text" placeholder="Атыңыз" value="" name="name" id="name" class="form-control input-lg" style="font-weight: 400" required>
                 </div>
                 <div class="col-sm-6 form-group">
                   <label for="email"></label>
-                  <input type="email" placeholder="Email дарегиңиз" value="" name="email" id="email" class="form-control input-lg" style="font-weight:400">
+                  <input type="email" placeholder="Email дарегиңиз" value="" name="email" id="email" class="form-control input-lg" style="font-weight:400" required>
                 </div>
               </div>
               <div class="row">
                 <div class="col-sm-12 form-group">
                   <label for="message">Кат...</label>
-                  <textarea rows="4" name="message" id="message" class="form-control input-lg"></textarea>
+                  <textarea rows="4" name="message" id="message" class="form-control input-lg" required></textarea>
                 </div>
               </div>
-              <button class="btn btn-success btn-xlg" type="submit">Жөнөтүү</button>
+              <button class="btn btn-success btn-xlg" id="submit" type="submit" data-toggle="popover" data-placement="auto top" 
+                data-trigger="manual" data-content="Кат жөнөтүлдү">Жөнөтүү</button>
             </form>
           </div>
           <div class="col-md-offset-1 col-md-5">

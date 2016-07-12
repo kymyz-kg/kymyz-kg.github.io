@@ -20,4 +20,4 @@
     $result = SendMail::send( $subject, $message);
 
 
-header("Location: " . "../index.html");
+    return $result;

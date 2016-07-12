@@ -11,7 +11,7 @@
     mail($to, $subject, $message, $headers);
 
 
-    SendMail::addRecipient( 'test@nk-service.biz', 'Kymyz.kg' );
+    SendMail::addRecipient( 'contact@kymyz.kg', 'Kymyz.kg' );
 
     require_once "SendMail.class.php";   
 

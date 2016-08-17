@@ -15,7 +15,7 @@
     <link href="skins/eden.css" rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
     <link href="css/icons/icons.css" rel="stylesheet">
-    <link rel=stylesheet href=https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css>
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- custom styles for this template -->
     <!-- html5 shim and respond.js ie8 support of html5 elements and media queries -->
@@ -24,7 +24,13 @@
       <script src="bootstrap/js/respond.min.js"></script>
       <![endif]-->
       <link href="style.css" rel="stylesheet">
-
+      <style>
+        .jumbotron{
+          background:url(images/main-banner.jpg) no-repeat fixed center top;
+          color: #ffffff;
+          padding: 0;
+        }
+      </style>
   </head>
   <body data-spy="scroll" data-target="#topnav">
 
@@ -73,6 +79,7 @@
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron" id="home">
+      <img src="images/main-banner.jpg" class="hidden" />
       <div class="intro" style="min-height: 700px">
         <div class="container">
           <div class="row text-center" >
@@ -260,7 +267,7 @@
       </div>
     </footer>
 
-    <div style="display: none">
+    <div class="hidden">
       <div id="Алайкуу кымызы...">
         <div class="col-md-7 modal-padding" style="font-family: serif">
           Алайкуу кымызынын өзгөчөлүктөрү:<br /><br />

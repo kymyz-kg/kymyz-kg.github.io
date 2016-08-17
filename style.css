@@ -1,4 +1,3 @@
-@import url("http://fonts.googleapis.com/css?family=Arvo:400,700|Raleway:400,300,500|Open+Sans:400,700,900,300");
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700|Source+Sans+Pro:600,300,300italic);
 
 *{
@@ -216,13 +215,6 @@ fieldset[disabled] .btn-primary.active {
   border-color: #3E84C2;
 }
 
-.jumbotron{
-  background: #18bc9c url(images/main-banner.jpg) no-repeat center top;
-  background-size: cover;
-  color: #ffffff;
-  padding: 0;
-
-}
 .jumbotron .intro{
   background: url(images/kookor.png) no-repeat fixed center center;
   background-size: 35%;
@@ -712,31 +704,11 @@ footer *{
   background: rgba(255,255,255,0.2);
   outline: none !important;
 }
-p.lead{
-  font-family: 'Arvo' !important;
-}
-
-.up-triangle,.down-triangle{
-  float: left;
-  margin-left: -100px;
-}
-
-.up-triangle:first-child{
-  margin-left: 20px;
-}
 
 .navbar-brand{
   padding: 10px;
 }
 @media (max-width: 980px) {
-
-  .up-triangle,.down-triangle{
-    margin-bottom: 20px;
-  }
-
-  .down-triangle:nth-child(5){
-    margin-left: 20px;
-  }
   .icon-reorder{
     color: #ffffff;
   }
@@ -755,11 +727,6 @@ p.lead{
 }
 
 @media (max-width: 360px) {
-  .up-triangle,.down-triangle{
-    clear: both;
-    margin-left:50px !important;
-
-  }
   .icon-reorder{
     color: #ffffff;
   }
@@ -768,57 +735,6 @@ p.lead{
     float: none;
     padding: 10px;
   }
-}
-
-
-.up-triangle {
-  width: 0;
-  height: 0;
-  border-bottom: 200px solid #ffffff;
-  border-left: 122px solid transparent;
-  border-right: 122px solid transparent;
-  position: relative;
-
-}
-.down-triangle {
-  width: 0;
-  height: 0;
-  border-top: 200px solid #ffffff;
-  border-left: 122px solid transparent;
-  border-right: 122px solid transparent;
-  position: relative;
-
-}
-
-.up-triangle div.info{
-  position:absolute;bottom:-170px;color: #ffffff;margin-left:-100px;width:200px;text-align:center;font-size: 14pt;
-  font-family: 'Arvo';
-}
-.down-triangle div.info{
-  position:absolute;top:-170px;color: #ffffff;margin-left:-100px;width:200px;text-align:center;font-family: 'Arvo';font-size: 14pt;
-}
-.triangles {
-  margin-bottom: 40px;
-}
-.triangles .icon{
-  font-size: 22pt;
-  color: #ffffff;
-  line-height: 60px;
-  -webkit-transition: all 500ms ease-out;
-  -moz-transition: all 500ms ease-out;
-  -o-transition: all 500ms ease-out;
-  transition: all 500ms ease-out;
-}
-
-.down-triangle .icon{
-  padding-top:15px;
-  line-height: 60px;
-
-}
-
-.up-triangle:hover .icon,
-.down-triangle:hover .icon{
-  color: rgba(52, 118, 135, 0.9);
 }
 
 .portfolio-block{

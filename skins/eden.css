@@ -1397,6 +1397,14 @@ a.btn-social,
 
 /** Navbar **/
 
+.navbar-toggle {
+  color: #fefefe;
+}
+
+.navbar-brand > img {
+    max-height: 30px;
+}
+
 .navbar-default {
   background-color: #2c3e50;
   border-color: transparent;
@@ -1438,9 +1446,6 @@ a.btn-social,
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #1a242f;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -1536,9 +1541,6 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
   background-color: #128f76;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #ffffff;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
@@ -1664,9 +1666,6 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
 .navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
   background-color: #128f76;
-}
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #ffffff;
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {

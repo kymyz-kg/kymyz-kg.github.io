@@ -1,2 +1,8 @@
 .*
 tags
+logs
+*.log
+*/cookie*
+dist
+node_modules
+index.html

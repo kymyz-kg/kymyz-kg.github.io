@@ -82,7 +82,7 @@ gulp.task('watch', function() {
     // Watch image files
     gulp.watch('src/images/**/*', ['images']);
 
-    gulp.watch(['dist/**', 'index.html']).on('change', function(){ 
+    gulp.watch('index.html').on('change', function(){ 
         return gulp.src("index.html")
             .pipe(notify("Dist files are changed"));
         });
